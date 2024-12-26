@@ -48,7 +48,7 @@
     "unist-util-visit": "^5.0.0"
   },
     "engines": {
-    "node": "23.5.0"
+    "node": "22.x"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
