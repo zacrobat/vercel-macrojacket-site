@@ -7578,6 +7578,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"katex@npm:^0.16.18":
+  version: 0.16.18
+  resolution: "katex@npm:0.16.18"
+  dependencies:
+    commander: "npm:^8.3.0"
+  bin:
+    katex: cli.js
+  checksum: 10/5c90a770969eaaa18cb62e5a2f4937704e4378e6c5848e02138b3a681bc4bda5faf3fba33a12642f042345c429fafb4af48c2e36ecbe953f7db2cacb7cedc28f
+  languageName: node
+  linkType: hard
+
 "kbar@npm:0.1.0-beta.45":
   version: 0.1.0-beta.45
   resolution: "kbar@npm:0.1.0-beta.45"
@@ -11387,6 +11398,7 @@ __metadata:
     hast-util-from-html-isomorphic: "npm:^2.0.0"
     husky: "npm:^9.0.0"
     image-size: "npm:1.0.0"
+    katex: "npm:^0.16.18"
     lint-staged: "npm:^13.0.0"
     next: "npm:15.0.2"
     next-contentlayer2: "npm:0.5.3"

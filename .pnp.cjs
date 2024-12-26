@@ -54,6 +54,7 @@ const RAW_RUNTIME_STATE =
           ["hast-util-from-html-isomorphic", "npm:2.0.0"],\
           ["husky", "npm:9.1.6"],\
           ["image-size", "npm:1.0.0"],\
+          ["katex", "npm:0.16.18"],\
           ["lint-staged", "npm:13.3.0"],\
           ["next", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:15.0.2"],\
           ["next-contentlayer2", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.3"],\
@@ -10350,6 +10351,14 @@ const RAW_RUNTIME_STATE =
           ["commander", "npm:8.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:0.16.18", {\
+        "packageLocation": "./.yarn/cache/katex-npm-0.16.18-36a1dceed9-5c90a77096.zip/node_modules/katex/",\
+        "packageDependencies": [\
+          ["katex", "npm:0.16.18"],\
+          ["commander", "npm:8.3.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["kbar", [\
@@ -14656,6 +14665,7 @@ const RAW_RUNTIME_STATE =
           ["hast-util-from-html-isomorphic", "npm:2.0.0"],\
           ["husky", "npm:9.1.6"],\
           ["image-size", "npm:1.0.0"],\
+          ["katex", "npm:0.16.18"],\
           ["lint-staged", "npm:13.3.0"],\
           ["next", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:15.0.2"],\
           ["next-contentlayer2", "virtual:6a0736c9e273c87cd59acbbec4b8c6fb052a32da59f0f7ce9dad8f9362bfe91de85faf06d7e63b7dd936da7d5208f18133db4ca131fb419f2ad022d74732764f#npm:0.5.3"],\
