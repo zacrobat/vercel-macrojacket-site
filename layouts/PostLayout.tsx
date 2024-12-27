@@ -97,12 +97,12 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
               <div className="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-300">
                 {/* <Link href={discussUrl(path)} rel="nofollow"> */}
-                <Link>
+                <Link href="/">
                   Listen on Bandcamp
                 </Link>
                 {` • `}
                 {/* <Link href={editUrl(filePath)}>View on GitHub</Link> */}
-                <Link>Stream on spotify</Link>
+                <Link href="/">Stream on spotify</Link>
               </div>
               {siteMetadata.comments && (
                 <div
