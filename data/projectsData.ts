@@ -13,8 +13,8 @@ const projectsData: Project[] = [
   //   href: 'https://www.google.com',
   // },
   {
-    title: 'A music collaboration',
-    description: `808's and amens meet their makesr`,
+    title: 'Project template page',
+    description: `Project template description`,
     imgSrc: '/static/images/cookaburra.jpeg',
     href: '/blog/a-music-collaboration',
   },
