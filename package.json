@@ -47,9 +47,6 @@
     "tailwindcss": "^3.4.14",
     "unist-util-visit": "^5.0.0"
   },
-    "engines": {
-    "node": "22.x"
-  },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.16.0",
