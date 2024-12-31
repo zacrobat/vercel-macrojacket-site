@@ -93,7 +93,7 @@ function createSearchIndex(allBlogs) {
 
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
-  filePathPattern: 'cuts/**/*.mdx',
+  filePathPattern: 'music/**/*.mdx',
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
