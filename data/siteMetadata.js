@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Macrojacket',
   author: 'Zachary Cobb',
   headerTitle: 'Macrojacket',
-  description: 'Music and projects',
+  description: 'Explore and listen',
   language: 'en-us',
   theme: 'system', // system, dark or light
   // siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',

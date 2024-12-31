@@ -16,7 +16,7 @@ const projectsData: Project[] = [
     title: 'Project template page',
     description: `Project template description`,
     imgSrc: '/static/images/cookaburra.jpeg',
-    href: '/cuts/a-music-collaboration',
+    href: '/music/a-music-collaboration',
   },
 ]
 
