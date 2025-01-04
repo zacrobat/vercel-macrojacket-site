@@ -5,7 +5,7 @@ const siteMetadata = {
   headerTitle: 'Macrojacket',
   description: 'Explore and listen',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   // siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteUrl: 'https://vercel-macrojacket-site.vercel.app',
   // siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
