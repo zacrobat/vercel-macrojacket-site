@@ -34,6 +34,12 @@
         }
       ]
     }
+  ],
+    "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://macrojacket.com/$1",
+      "permanent": true
+    }
   ]
 }
-
