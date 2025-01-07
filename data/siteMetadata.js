@@ -6,9 +6,7 @@ const siteMetadata = {
   description: 'Explore and listen',
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  // siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteUrl: 'https://vercel-macrojacket-site.vercel.app',
-  // siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteRepo: 'https://github.com/zacrobat/vercel-macrojacket-site.git',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
