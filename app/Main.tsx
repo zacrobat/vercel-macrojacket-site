@@ -75,7 +75,7 @@ export default function Home({ posts }) {
           <Link
             href="/music"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="All posts"
+            aria-label="All music"
           >
             All Music &rarr;
           </Link>
