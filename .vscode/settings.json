@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "npm.packageManager": "yarn",
+    "prettier.resolveGlobalModules": true
+}
