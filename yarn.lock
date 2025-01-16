@@ -9612,7 +9612,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.5.11":
+"prettier-plugin-tailwindcss@npm:0.5.14":
   version: 0.5.14
   resolution: "prettier-plugin-tailwindcss@npm:0.5.14"
   peerDependencies:
@@ -11475,7 +11475,7 @@ __metadata:
     pliny: 0.4.0
     postcss: ^8.4.24
     prettier: ^3.0.0
-    prettier-plugin-tailwindcss: ^0.5.11
+    prettier-plugin-tailwindcss: 0.5.14
     react: rc
     react-dom: rc
     reading-time: 1.5.0

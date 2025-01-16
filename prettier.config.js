@@ -1,3 +1,4 @@
+const tailwindPlugin = require.resolve('prettier-plugin-tailwindcss');
 module.exports = {
   semi: false,
   singleQuote: true,
@@ -6,5 +7,5 @@ module.exports = {
   useTabs: false,
   trailingComma: 'es5',
   bracketSpacing: true,
-  plugins: ['prettier-plugin-tailwindcss'],
-}
+  plugins: [tailwindPlugin],
+};
