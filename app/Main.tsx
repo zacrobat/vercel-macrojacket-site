@@ -10,22 +10,19 @@ const MAX_DISPLAY = 5
 export default function Home({ posts }) {
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="divide-y divide-gray-200 border-b border-gray-200 dark:divide-gray-700 dark:border-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          {/* <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest music
-          </h1> */}
           <PageTitle>Latest music</PageTitle>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
-          </p>
+          </p> */}
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, title, summary, tags } = post
             return (
-              <li key={slug} className="py-12">
+              <li key={slug} className="py-10 md:py-12">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>

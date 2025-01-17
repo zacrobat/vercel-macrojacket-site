@@ -13,31 +13,27 @@ export default async function Page() {
   const sortedTags = tagKeys.sort((a, b) => tagCounts[b] - tagCounts[a])
   return (
     <>
-      <div>
-        <div className="space-x-2 pb-8 pt-6 md:space-y-5">
-          <div className="divide-y divide-gray-200 dark:divide-gray-700">
-            <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-              <PageTitle>Tags</PageTitle>
+      <div className="divide-y divide-gray-200 border-b border-gray-200 dark:divide-gray-700 dark:border-gray-700">
+        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+          <PageTitle>Tags</PageTitle>
+        </div>
+      </div>
+      <div className="py-10">
+        {tagKeys.length === 0 && 'No tags found.'}
+        {sortedTags.map((t) => {
+          return (
+            <div key={t} className="mb-5 mr-5 mt-5">
+              <Tag text={t} />
+              <Link
+                href={`/tags/${slug(t)}`}
+                className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
+                aria-label={`View music tagged ${t}`}
+              >
+                {` (${tagCounts[t]})`}
+              </Link>
             </div>
-          </div>
-        </div>
-        <div>
-          {tagKeys.length === 0 && 'No tags found.'}
-          {sortedTags.map((t) => {
-            return (
-              <div key={t} className="mb-2 mr-5 mt-2">
-                <Tag text={t} />
-                <Link
-                  href={`/tags/${slug(t)}`}
-                  className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
-                  aria-label={`View music tagged ${t}`}
-                >
-                  {` (${tagCounts[t]})`}
-                </Link>
-              </div>
-            )
-          })}
-        </div>
+          )
+        })}
       </div>
     </>
   )
